@@ -28,15 +28,42 @@ main {
 nav {
     flex: 1;
     border-right: solid 4px white;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 #content {
-    flex: 6;
+    flex: 8;
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 footer {
     flex: 2;
     border-top: solid 4px white;
+}
+
+header, footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+nav > * {
+    margin: 2px;
+}
+
+#usernameDisplay {
+    margin-top: 5px;
+    font-size: larger;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 20px;
 }
 
 /* Link colors */
