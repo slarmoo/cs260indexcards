@@ -4,6 +4,8 @@ Practice for making a CS 260 startup
 ## Elevator Pitch:
 Do you need help studying for your CS 260 midterm? Your final? Use these index cards to study, and add your own! Practice with friends!
 
+![diagram](./images/diagram.jpg)
+
 ## Key Features:
 - Secure sign up and login
 - study a list of terms for CS260
@@ -35,7 +37,7 @@ Do you need help studying for your CS 260 midterm? Your final? Use these index c
 - Links - Each of my pages links to the others.
 - Text - Each index card contains (placeholer) text.
 - 3rd party API placeholder - There is a placeholder on the sign up page for display names grabbed from an API.
-- Images - I did not complete this part of the deliverable.
+- Images - A picture of index cards on the login page. 
 - Login placeholder - The login and sign up pages are structural placeholders for future functionality.
 - DB data placeholder - User data and index cards will be stored in and retrieved from the database.
 - WebSocket placeholder - On the practice page you can see which other users are online and how many cards they've practiced.
