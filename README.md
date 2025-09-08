@@ -28,3 +28,14 @@ Do you need help studying for your CS 260 midterm? Your final? Use these index c
     - Save login credentials and new flashcards
 - Websocket
     - Live updates for practicing with friends
+
+## HTML Deliverable
+- HTML pages - I have 4 HTML pages representing a login, a sign up, a practice, and a create page.
+- Proper HTML element usage - I use header, footer, nav, body, label, p, div, and anchor tags.
+- Links - Each of my pages links to the others.
+- Text - Each index card contains (placeholer) text.
+- 3rd party API placeholder - There is a placeholder on the sign up page for display names grabbed from an API.
+- Images - I did not complete this part of the deliverable.
+- Login placeholder - The login and sign up pages are structural placeholders for future functionality.
+- DB data placeholder - User data and index cards will be stored in and retrieved from the database.
+- WebSocket placeholder - On the practice page you can see which other users are online and how many cards they've practiced.
