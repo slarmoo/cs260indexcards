@@ -1,0 +1,31 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+#createContentHeader {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+#createContentHeader > * {
+    margin-left: 8px;
+}
+
+#flashcardContainer {
+    flex: 5;
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+#submitButton {
+    flex: 1/4;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}

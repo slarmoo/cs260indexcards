@@ -66,6 +66,40 @@ ul {
     padding-left: 20px;
 }
 
+select, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px black;
+    border-radius: 2px;
+    background-color: rgb(218, 217, 217);
+    color: rgb(38, 38, 38);
+    font-weight: 500;
+}
+
+.flashcardWrapper {
+    container-type: size;
+    container-name: flashcard;
+
+    flex: 1;
+    border: solid 2px black;
+    border-radius: 2px;
+    background-color: rgb(218, 217, 217);
+    color: rgb(38, 38, 38);
+    padding: 8px;
+    background-image: repeating-linear-gradient(
+        to top, 
+        rgb(200, 190, 51) 0%,
+        rgb(200, 190, 51) 2%,
+        rgb(218, 217, 217) 2%,
+        rgb(218, 217, 217) 20%
+    );
+}
+
+.flashcard {
+    font-size: 18cqh;
+    text-align: center;
+    align-content: center;    
+}
+
 /* Link colors */
 a:link {
     color: rgb(140, 199, 224);

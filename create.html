@@ -3,6 +3,7 @@
 <head>
     <meta name="application-name" property="Index Cards Create" />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./create.css" />
 </head>
 
 <body>
@@ -26,27 +27,33 @@
             </ul>
         </nav>
         <div id="content">
-            <label>Your index cards: </label>
-            <select>
-                <option>
-                    flashcard
-                </option>
-                <option>
-                    index card
-                </option>
-                <option>
-                    Add new card
-                </option>
-            </select>
-            <div>
-                <div id="flashcardFront" class="flashcard">
-                    flashcard text front
+            <div id="createContentHeader">
+                <label>Your index cards: </label>
+                <select>
+                    <option>
+                        flashcard
+                    </option>
+                    <option>
+                        index card
+                    </option>
+                    <option>
+                        Add new card
+                    </option>
+                </select>
+            </div>
+            <div id="flashcardContainer">
+                <div class="flashcardWrapper">
+                    <div id="flashcardFront" class="flashcard">
+                        flashcard text front
+                    </div>
                 </div>
-                <div id="flashcardBack" class="flashcard">
-                    flashcard text back
+                <div class="flashcardWrapper">
+                    <div id="flashcardBack" class="flashcard">
+                        flashcard text back
+                    </div>
                 </div>
             </div>
-            <button>Submit</button>
+            <button id="submitButton">Submit</button>
         </div>
     </main>
     <footer>
