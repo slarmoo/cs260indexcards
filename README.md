@@ -6,7 +6,9 @@ Do you need help studying for your CS 260 midterm? Your final? Use these index c
 
 ## Key Features:
 - Secure sign up and login
-- 
+- study a list of terms for CS260
+- Add new terms to study
+- See who else is studying, and how many cards they've done
 
 ## Technologies:
 - HTML
