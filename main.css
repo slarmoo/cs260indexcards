@@ -1,0 +1,61 @@
+/* CSS that exists on every page */
+html {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body {
+    background-color: rgb(8, 66, 91);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    flex: 5;
+    border-bottom: solid 4px white;
+}
+
+main {
+    flex: 30;
+    display: flex;
+    flex-direction: row;
+}
+
+nav {
+    flex: 1;
+    border-right: solid 4px white;
+}
+
+#content {
+    flex: 6;
+}
+
+footer {
+    flex: 2;
+    border-top: solid 4px white;
+}
+
+/* Link colors */
+a:link {
+    color: rgb(140, 199, 224);
+}
+
+a:visited {
+    color: rgb(162, 75, 202);
+}
+
+a:hover:link {
+    color: rgb(192, 210, 218);
+}
+
+a:hover:visited {
+    color: rgb(184, 142, 203);
+}
+
+a:active {
+    color: white;
+}
