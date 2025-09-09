@@ -84,20 +84,36 @@ select, button {
     border-radius: 2px;
     background-color: rgb(218, 217, 217);
     color: rgb(38, 38, 38);
-    padding: 8px;
     background-image: repeating-linear-gradient(
         to top, 
         rgb(200, 190, 51) 0%,
-        rgb(200, 190, 51) 2%,
-        rgb(218, 217, 217) 2%,
+        rgb(200, 190, 51) 4px,
+        rgb(218, 217, 217) 4px,
         rgb(218, 217, 217) 20%
     );
+    display: flex;
+}
+
+@media (max-height: 350px) {
+    .flashcardWrapper {
+        background-image: repeating-linear-gradient(
+            to top, 
+            rgb(200, 190, 51) 0%,
+            rgb(200, 190, 51) 1px,
+            rgb(218, 217, 217) 1px,
+            rgb(218, 217, 217) 20%
+        );
+    }
 }
 
 .flashcard {
-    font-size: 18cqh;
+    font-size: 17cqh;
     text-align: center;
-    align-content: center;    
+    /* align-content: center; */
+    padding: 8px;
+    flex: 1;
+    line-height: 20cqh;
+    padding-top: 4px;
 }
 
 /* Link colors */
