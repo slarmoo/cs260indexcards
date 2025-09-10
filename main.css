@@ -66,15 +66,6 @@ ul {
     padding-left: 20px;
 }
 
-select, button {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border: solid 2px black;
-    border-radius: 2px;
-    background-color: rgb(218, 217, 217);
-    color: rgb(38, 38, 38);
-    font-weight: 500;
-}
-
 .flashcardWrapper {
     container-type: size;
     container-name: flashcard;
@@ -91,7 +82,6 @@ select, button {
         rgb(218, 217, 217) 4px,
         rgb(218, 217, 217) 20%
     );
-    display: flex;
 }
 
 @media (max-height: 350px) {
@@ -111,9 +101,26 @@ select, button {
     text-align: center;
     /* align-content: center; */
     padding: 8px;
-    flex: 1;
     line-height: 20cqh;
-    padding-top: 4px;
+    padding-top: 1cqh;
+}
+
+/* Buttons and Selects styling */
+select, button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: solid 2px black;
+    border-radius: 2px;
+    background-color: rgb(218, 217, 217);
+    color: rgb(38, 38, 38);
+    font-weight: 500;
+}
+
+button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+button:active {
+    background-color: white;
 }
 
 /* Link colors */

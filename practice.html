@@ -3,6 +3,7 @@
 <head>
     <meta name="application-name" property="Index Cards Practice" />
     <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" href="./practice.css" />
 </head>
 <body>
     <header>
@@ -26,18 +27,18 @@
         </nav>
         <div id="content">
             <!-- on hover, display how many cards each studier has gone through -->
-            <div title="10">
+            <div title="10" id="studiers">
                 Other studiers: Abby, Brandon, Corinne, David, etc
             </div>
-            <div>
-                <button> ← </button>
+            <div id="study">
+                <button class="arrow"> ← </button>
                 <!-- on click, "flip" to other side -->
                 <div class="flashcardWrapper">
                     <div class="flashcard">
                         flashcard text
                     </div>
                 </div>
-                <button> → </button>
+                <button class="arrow"> → </button>
             </div>
         </div>
     </main>
