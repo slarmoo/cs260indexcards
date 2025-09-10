@@ -106,7 +106,7 @@ ul {
 }
 
 /* Buttons and Selects styling */
-select, button {
+select, button, option {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: solid 2px black;
     border-radius: 2px;
