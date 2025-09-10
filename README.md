@@ -41,3 +41,9 @@ Do you need help studying for your CS 260 midterm? Your final? Use these index c
 - Login placeholder - The login and sign up pages are structural placeholders for future functionality.
 - DB data placeholder - User data and index cards will be stored in and retrieved from the database.
 - WebSocket placeholder - On the practice page you can see which other users are online and how many cards they've practiced.
+
+## CSS Deliverable
+- The Header, Main, and Footer are properly styled
+- Navigation elements are properly styled
+- My website is responsive to window resizing
+- All application elements, text, and images are properly styled

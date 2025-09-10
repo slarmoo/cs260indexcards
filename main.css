@@ -70,6 +70,7 @@ ul {
     container-type: size;
     container-name: flashcard;
 
+    display: flex;
     flex: 1;
     border: solid 2px black;
     border-radius: 2px;
@@ -96,6 +97,15 @@ ul {
     }
 }
 
+.flashcard {
+    font-size: 17cqh;
+    text-align: center;
+    flex: 1;
+    line-height: 20cqh;
+    padding-top: 1cqh;
+}
+
+
 @media (orientation: portrait) {
     main {
         flex-direction: column;
@@ -113,15 +123,6 @@ ul {
     html, button, select {
         font-size: 2cqh;
     }
-}
-
-.flashcard {
-    font-size: 17cqh;
-    text-align: center;
-    /* align-content: center; */
-    padding: 8px;
-    line-height: 20cqh;
-    padding-top: 1cqh;
 }
 
 /* Buttons and Selects styling */
