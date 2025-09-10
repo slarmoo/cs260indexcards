@@ -96,6 +96,25 @@ ul {
     }
 }
 
+@media (orientation: portrait) {
+    main {
+        flex-direction: column;
+    }
+    nav {
+        border-right: none;
+        border-bottom: solid 4px white;
+    }
+    h1 {
+        font-size: 4cqh;
+    }
+    h2 {
+        font-size: 3cqh;
+    }
+    html, button, select {
+        font-size: 2cqh;
+    }
+}
+
 .flashcard {
     font-size: 17cqh;
     text-align: center;
