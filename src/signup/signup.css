@@ -1,0 +1,24 @@
+#content {
+    container-type: size;
+    container-name: content;
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#content > * {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 30cqw;
+}
+
+#indexCardImage {
+    position: absolute;
+    right: 2cqw;
+    bottom: 10cqh;
+    width: 20cqw;
+}
