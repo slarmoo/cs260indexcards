@@ -4,6 +4,13 @@ html {
     color: white;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
 .body {
     background-color: rgb(8, 66, 91);
     display: flex;
