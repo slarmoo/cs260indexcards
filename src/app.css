@@ -39,7 +39,7 @@ nav {
     padding-right: 8px;
 }
 
-#content {
+.content {
     flex: 8;
     padding-left: 8px;
     padding-right: 8px;

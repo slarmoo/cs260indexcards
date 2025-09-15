@@ -1,4 +1,4 @@
-#content {
+#loginContent {
     container-type: size;
     container-name: content;
 
@@ -9,7 +9,7 @@
     gap: 8px;
 }
 
-#content > * {
+#loginContent > * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

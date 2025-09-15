@@ -3,7 +3,7 @@ import "./signup.css"
 
 export function Signup() {
     return (
-        <>
+        <div id="signupContent" className="content">
             <div>
                 <label> email: </label>
                 <input type="email" />
@@ -31,6 +31,6 @@ export function Signup() {
             <div>
                 <button>Confirm</button>
             </div>
-        </>
+        </div>
     );
 }

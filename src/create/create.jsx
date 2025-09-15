@@ -3,7 +3,7 @@ import "./create.css"
 
 export function Create() {
     return (
-        <>
+        <div id="createContent" className="content">
             <div id="createContentHeader">
                 <label>Your index cards: </label>
                 <select>
@@ -19,18 +19,18 @@ export function Create() {
                 </select>
             </div>
             <div id="flashcardContainer">
-                <div class="flashcardWrapper">
-                    <div id="flashcardFront" class="flashcard editable" contenteditable="true">
+                <div className="flashcardWrapper">
+                    <div id="flashcardFront" className="flashcard editable" contenteditable="true">
                         flashcard text front
                     </div>
                 </div>
-                <div class="flashcardWrapper">
-                    <div id="flashcardBack" class="flashcard editable" contenteditable="true">
+                <div className="flashcardWrapper">
+                    <div id="flashcardBack" className="flashcard editable" contenteditable="true">
                         flashcard text back
                     </div>
                 </div>
             </div>
             <button id="submitButton">Submit</button>
-        </>
+        </div>
     );
 }

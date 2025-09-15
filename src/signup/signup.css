@@ -1,4 +1,4 @@
-#content {
+#signupContent {
     container-type: size;
     container-name: content;
 
@@ -9,7 +9,7 @@
     gap: 8px;
 }
 
-#content > * {
+#signupContent > * {
     display: flex;
     flex-direction: row;
     justify-content: space-between;

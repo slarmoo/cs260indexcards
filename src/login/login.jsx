@@ -3,7 +3,7 @@ import "./login.css"
 
 export function Login() {
     return (
-        <>
+        <div id="loginContent" className="content">
             <div>
                 <label> email: </label>
                 <input type="email" />
@@ -17,6 +17,6 @@ export function Login() {
             </div>
             {/* Photo by <a href="/photographer/abeall-34118">abeall</a> on <a href="/">Freeimages.com</a> */}
             <img id="indexCardImage" src="./images/indexcards.png" alt="A photo of index cards" />
-        </>
+        </div>
     );
 }
